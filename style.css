@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;  
+    height: 100vh;
+}
+
+.main__result {
+    background: linear-gradient(#7755FF, #2F2CE9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 24px;
+    padding-top: 24px;
+    height: 356px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.main__result h2 {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #CAC9FF;
+}
+
+.main__result__circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#4D21C9, #2521C900);
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+}
+
+.main__result__circle h3 {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 5.1rem;
+    color: white;
+}
+
+.main__result__circle p {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color:#CAC9FF;
+    opacity: 51.68%;
+}
+
+.main__result__text {
+    padding: 0px 57px;
+}
+
+.main__result__text h2 {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 8PX;
+}
+
+.main__result__text p {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #CAC9FF;
+}
+
+
+
+
+
+.main__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 30px 30px 30px;
+}
+
+.main__summary h2 {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #303B59;
+}
+
+.main__summary__div {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 16px;
+    border-radius: 12px;
+}
+
+.main__summary__div__name {
+    display: flex;
+    gap: 12px;
+}
+
+.reaction {
+    background-color: rgb(255, 247, 247);
+}
+
+.reaction__name {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #FF5555;
+}
+
+.main__summary__div__number {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color: #303B59;
+}
+
+.main__summary__div span {
+    opacity: 50%;
+}
+
+.memory {
+    background-color: rgb(255, 251, 244);
+}
+
+.memory__name {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFB21E;
+}
+
+.verbal {
+    background-color: rgb(242, 252, 249);
+}
+
+.verbal__name {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #00BB8F;
+}
+
+.visual {
+    background-color: rgb(243, 244, 253);
+}
+
+.visual__name {
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #1125D6;
+}
+
+
+
+.continue__button {
+    margin-top: 8px;
+    background-color: #303B59;
+    font-family: "Hanken Grotesk", serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 17px;
+    border-radius: 128px;
+}
+
+@media (min-width:768px) {
+    body {
+        align-items: center;
+        background-color: #ECF2FF;
+    }
+
+    main {
+        background-color: white;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 51vmin;
+        min-width: 730px;
+        height: fit-content;
+        border-radius: 30px;
+    }
+
+    .main__result {
+        height: auto;
+        border-radius: 30px;
+        gap: 30px;
+        padding: 40px;
+    }
+
+    .main__result__circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .main__result__text {
+        padding: 0px 30px;
+    }
+
+    .main__summary {
+        padding: 40px;
+    }
+}
