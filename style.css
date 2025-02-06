@@ -208,16 +208,44 @@ body {
         padding: 40px;
     }
 
+    .main__result h2 {
+        font-size: 1.5rem;
+    }
+
     .main__result__circle {
         width: 200px;
         height: 200px;
+    }
+
+    .main__result__circle h3 {
+        font-size: 4.6125rem;
+    }
+
+    .main__result__circle p {
+        font-size: 1.125rem;
     }
 
     .main__result__text {
         padding: 0px 30px;
     }
 
-    .main__summary {
-        padding: 40px;
+    .main__result__text h2 {
+        font-size: 2rem;
+    }
+
+    .main__result__text p {
+        font-size: 1.125rem;
+    }
+
+    .main__summary h2 {
+        font-size: 1.5rem;
+    }
+
+    .reaction__name, .memory__name, .verbal__name, .visual__name {
+        font-size: 1.125rem;
+    }
+
+    .continue__button:hover {
+        background: linear-gradient(#7755FF, #2F2CE9);
     }
 }
